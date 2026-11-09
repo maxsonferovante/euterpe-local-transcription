@@ -1,0 +1,376 @@
+{
+  "communities": {
+    "0": [
+      "arc",
+      "command",
+      "context",
+      "crates_euterpe_mcp_src_adapters",
+      "crates_euterpe_mcp_src_adapters_localfileaccess",
+      "crates_euterpe_mcp_src_adapters_localfileaccess_new",
+      "crates_euterpe_mcp_src_adapters_localfileaccess_resolve_allowed_file",
+      "crates_euterpe_mcp_src_adapters_row_to_operation",
+      "crates_euterpe_mcp_src_main",
+      "crates_euterpe_mcp_src_main_main",
+      "crates_euterpe_mcp_src_ports",
+      "crates_euterpe_mcp_src_ports_operationrepository_list_conversions_on",
+      "crates_euterpe_mcp_src_ports_rs_naivedate",
+      "datetime",
+      "env",
+      "fs",
+      "fullparams",
+      "info",
+      "jsontranscriptstore",
+      "local",
+      "localfileaccess",
+      "localmediaprocessor",
+      "mcpadapter",
+      "mediaprocessor",
+      "operationrepository",
+      "optionalextension",
+      "params",
+      "path",
+      "pathbuf",
+      "result",
+      "row",
+      "samplingstrategy",
+      "serviceext",
+      "sqliteoperationrepository",
+      "stdio",
+      "tests_media_adapter",
+      "tests_media_adapter_a_local_video_is_converted_to_an_mp3_file",
+      "tests_media_adapter_transcription_reports_a_missing_local_model_before_decoding_audio",
+      "tests_media_adapter_video_conversion_reports_when_ffmpeg_cannot_be_started",
+      "tests_sqlite_repository",
+      "tests_sqlite_repository_completed_operations_remain_available_after_reopening_the_repository",
+      "tests_sqlite_repository_temporary_data_dir",
+      "uuid",
+      "whispercontext",
+      "whispercontextparameters"
+    ],
+    "1": [
+      "bail",
+      "crates_euterpe_mcp_src_adapters_mcp_operationdto",
+      "crates_euterpe_mcp_src_adapters_mcp_operationdto_from",
+      "crates_euterpe_mcp_src_domain_operation",
+      "crates_euterpe_mcp_src_domain_operationkind",
+      "crates_euterpe_mcp_src_domain_operationkind_as_str",
+      "crates_euterpe_mcp_src_domain_operationkind_conversion",
+      "crates_euterpe_mcp_src_domain_operationkind_transcription",
+      "crates_euterpe_mcp_src_domain_operationstatus",
+      "crates_euterpe_mcp_src_domain_operationstatus_as_str",
+      "crates_euterpe_mcp_src_domain_operationstatus_completed",
+      "crates_euterpe_mcp_src_domain_operationstatus_failed",
+      "crates_euterpe_mcp_src_domain_operationstatus_processing",
+      "crates_euterpe_mcp_src_domain_operationstatus_queued",
+      "crates_euterpe_mcp_src_ports_operationrepository_create",
+      "crates_euterpe_mcp_src_ports_operationrepository_update",
+      "tests_application_use_cases",
+      "tests_application_use_cases_completed_transcription",
+      "tests_application_use_cases_conversion_status_is_scoped_to_conversion_operations",
+      "tests_application_use_cases_inmemoryoperations",
+      "tests_application_use_cases_inmemoryoperations_create",
+      "tests_application_use_cases_inmemoryoperations_find",
+      "tests_application_use_cases_inmemoryoperations_list_conversions_on",
+      "tests_application_use_cases_inmemoryoperations_update",
+      "tests_application_use_cases_reprocessing_creates_a_new_operation_linked_to_the_original",
+      "tests_application_use_cases_rs_naivedate",
+      "tests_application_use_cases_starting_transcription_returns_a_queued_operation_for_the_resolved_input",
+      "tests_application_use_cases_transcript_pages_preserve_segment_order_and_return_a_continuation_offset",
+      "tests_application_use_cases_transcription_status_persists_intermediate_whisper_progress",
+      "transcriptpage"
+    ],
+    "2": [
+      "crates_euterpe_mcp_src_adapters_jsontranscriptstore",
+      "crates_euterpe_mcp_src_adapters_jsontranscriptstore_load",
+      "crates_euterpe_mcp_src_adapters_jsontranscriptstore_save",
+      "crates_euterpe_mcp_src_adapters_mcp_mcpadapter_new",
+      "crates_euterpe_mcp_src_adapters_mcp_segmentdto",
+      "crates_euterpe_mcp_src_adapters_mcp_segmentdto_from",
+      "crates_euterpe_mcp_src_adapters_mcp_transcriptdto",
+      "crates_euterpe_mcp_src_adapters_mcp_transcriptdto_from",
+      "crates_euterpe_mcp_src_adapters_mcp_transcriptpagedto",
+      "crates_euterpe_mcp_src_adapters_mcp_transcriptpagedto_from",
+      "crates_euterpe_mcp_src_adapters_segmentrecord",
+      "crates_euterpe_mcp_src_adapters_transcript",
+      "crates_euterpe_mcp_src_adapters_transcript_from",
+      "crates_euterpe_mcp_src_adapters_transcriptrecord",
+      "crates_euterpe_mcp_src_adapters_transcriptrecord_from",
+      "crates_euterpe_mcp_src_domain",
+      "crates_euterpe_mcp_src_domain_transcript",
+      "crates_euterpe_mcp_src_domain_transcriptpage",
+      "crates_euterpe_mcp_src_domain_transcriptsegment",
+      "crates_euterpe_mcp_src_ports_transcriptrepository",
+      "crates_euterpe_mcp_src_ports_transcriptrepository_load",
+      "crates_euterpe_mcp_src_ports_transcriptrepository_save",
+      "tests_application_use_cases_inmemorytranscripts",
+      "tests_application_use_cases_inmemorytranscripts_load",
+      "tests_application_use_cases_inmemorytranscripts_save",
+      "tests_application_use_cases_rs_mutex"
+    ],
+    "3": [
+      "crates_euterpe_cli_src_main",
+      "crates_euterpe_cli_src_main_configure_claude",
+      "crates_euterpe_cli_src_main_configure_codex",
+      "crates_euterpe_cli_src_main_copy_executable",
+      "crates_euterpe_cli_src_main_getuid",
+      "crates_euterpe_cli_src_main_home",
+      "crates_euterpe_cli_src_main_init",
+      "crates_euterpe_cli_src_main_install",
+      "crates_euterpe_cli_src_main_install_service",
+      "crates_euterpe_cli_src_main_libc_uid",
+      "crates_euterpe_cli_src_main_locate_model",
+      "crates_euterpe_cli_src_main_locate_server",
+      "crates_euterpe_cli_src_main_main",
+      "crates_euterpe_cli_src_main_plist_info",
+      "crates_euterpe_cli_src_main_prompt",
+      "crates_euterpe_cli_src_main_replace_toml_table",
+      "crates_euterpe_cli_src_main_service_env",
+      "crates_euterpe_cli_src_main_toml_string",
+      "crates_euterpe_cli_src_main_uninstall",
+      "crates_euterpe_cli_src_main_usage",
+      "crates_euterpe_cli_src_main_xml",
+      "io",
+      "map",
+      "value",
+      "write"
+    ],
+    "4": [
+      "calltoolresult",
+      "crates_euterpe_mcp_src_adapters_mcp",
+      "crates_euterpe_mcp_src_adapters_mcp_chunkargs",
+      "crates_euterpe_mcp_src_adapters_mcp_dateargs",
+      "crates_euterpe_mcp_src_adapters_mcp_idargs",
+      "crates_euterpe_mcp_src_adapters_mcp_mcpadapter",
+      "crates_euterpe_mcp_src_adapters_mcp_mcpadapter_conversion_status_by_date",
+      "crates_euterpe_mcp_src_adapters_mcp_mcpadapter_convert_video_to_mp3",
+      "crates_euterpe_mcp_src_adapters_mcp_mcpadapter_error",
+      "crates_euterpe_mcp_src_adapters_mcp_mcpadapter_get_transcript_chunk",
+      "crates_euterpe_mcp_src_adapters_mcp_mcpadapter_get_transcript_json",
+      "crates_euterpe_mcp_src_adapters_mcp_mcpadapter_reprocess_operation",
+      "crates_euterpe_mcp_src_adapters_mcp_mcpadapter_schedule",
+      "crates_euterpe_mcp_src_adapters_mcp_mcpadapter_transcribe_mp3",
+      "crates_euterpe_mcp_src_adapters_mcp_mcpadapter_transcription_status",
+      "crates_euterpe_mcp_src_adapters_mcp_pathargs",
+      "deserialize",
+      "json",
+      "naivedate",
+      "parameters",
+      "schemars",
+      "tool",
+      "tool_router"
+    ],
+    "5": [
+      "anyhow",
+      "crates_euterpe_mcp_src_adapters_operationprogressreporter",
+      "crates_euterpe_mcp_src_adapters_operationprogressreporter_new",
+      "crates_euterpe_mcp_src_adapters_operationprogressreporter_report_progress",
+      "crates_euterpe_mcp_src_application",
+      "crates_euterpe_mcp_src_application_conversion_status_by_date",
+      "crates_euterpe_mcp_src_application_reprocess_operation",
+      "crates_euterpe_mcp_src_application_rs_naivedate",
+      "crates_euterpe_mcp_src_application_start_conversion",
+      "crates_euterpe_mcp_src_application_start_transcription",
+      "crates_euterpe_mcp_src_application_transcript_json",
+      "crates_euterpe_mcp_src_application_transcript_page",
+      "crates_euterpe_mcp_src_application_transcription_status",
+      "crates_euterpe_mcp_src_ports_inputfileaccess",
+      "crates_euterpe_mcp_src_ports_inputfileaccess_resolve_allowed_file",
+      "crates_euterpe_mcp_src_ports_operationrepository",
+      "crates_euterpe_mcp_src_ports_operationrepository_find",
+      "tests_application_use_cases_allowinputpath",
+      "tests_application_use_cases_allowinputpath_resolve_allowed_file"
+    ],
+    "6": [
+      "crates_euterpe_mcp_src_adapters_localmediaprocessor",
+      "crates_euterpe_mcp_src_adapters_localmediaprocessor_convert_video_to_mp3",
+      "crates_euterpe_mcp_src_adapters_localmediaprocessor_new",
+      "crates_euterpe_mcp_src_adapters_localmediaprocessor_transcribe_portuguese",
+      "crates_euterpe_mcp_src_adapters_rs_mutex",
+      "crates_euterpe_mcp_src_adapters_transcribe_sync",
+      "crates_euterpe_mcp_src_application_process_operation",
+      "crates_euterpe_mcp_src_ports_mediaprocessor",
+      "crates_euterpe_mcp_src_ports_mediaprocessor_convert_video_to_mp3",
+      "crates_euterpe_mcp_src_ports_mediaprocessor_transcribe_portuguese",
+      "crates_euterpe_mcp_src_ports_progressreporter",
+      "crates_euterpe_mcp_src_ports_progressreporter_report_progress",
+      "tests_application_use_cases_progressreportingmedia",
+      "tests_application_use_cases_progressreportingmedia_convert_video_to_mp3",
+      "tests_application_use_cases_progressreportingmedia_transcribe_portuguese",
+      "tests_media_adapter_ignoreprogress",
+      "tests_media_adapter_ignoreprogress_report_progress"
+    ],
+    "7": [
+      "agents_graphify_rules",
+      "application_use_cases",
+      "cargo_build_system",
+      "docs_domain_layer_concepts",
+      "ffmpeg_media_tool",
+      "ggml_model_format",
+      "graph_json_artifact",
+      "hexagonal_architecture_pattern",
+      "port_traits_interface",
+      "readme_project_description",
+      "rust_language_choice",
+      "sqlite_persistence_layer",
+      "whisper_rs_binding"
+    ],
+    "8": [
+      "connection",
+      "crates_euterpe_mcp_src_adapters_rs_naivedate",
+      "crates_euterpe_mcp_src_adapters_sqliteoperationrepository",
+      "crates_euterpe_mcp_src_adapters_sqliteoperationrepository_connection",
+      "crates_euterpe_mcp_src_adapters_sqliteoperationrepository_create",
+      "crates_euterpe_mcp_src_adapters_sqliteoperationrepository_find",
+      "crates_euterpe_mcp_src_adapters_sqliteoperationrepository_list_conversions_on",
+      "crates_euterpe_mcp_src_adapters_sqliteoperationrepository_new",
+      "crates_euterpe_mcp_src_adapters_sqliteoperationrepository_update",
+      "mutexguard"
+    ],
+    "9": [
+      "code_of_conduct_policy",
+      "contributing_guidelines"
+    ],
+    "10": [
+      "mcp_protocol_usage",
+      "rmcp_sdk_integration"
+    ],
+    "11": [
+      "crates_euterpe_mcp_src_lib"
+    ],
+    "12": [
+      "pkg_euterpe_cli"
+    ],
+    "13": [
+      "pkg_euterpe_mcp"
+    ]
+  },
+  "cohesion": {
+    "0": 0.0595959595959596,
+    "1": 0.11494252873563218,
+    "2": 0.12615384615384614,
+    "3": 0.15333333333333332,
+    "4": 0.2134387351778656,
+    "5": 0.1871345029239766,
+    "6": 0.15441176470588236,
+    "7": 0.1794871794871795,
+    "8": 0.3333333333333333,
+    "9": 1.0,
+    "10": 1.0,
+    "11": 1.0,
+    "12": 1.0,
+    "13": 1.0
+  },
+  "gods": [
+    {
+      "id": "crates_euterpe_mcp_src_domain_operation",
+      "label": "Operation",
+      "degree": 29
+    },
+    {
+      "id": "crates_euterpe_mcp_src_ports_operationrepository",
+      "label": "OperationRepository",
+      "degree": 23
+    },
+    {
+      "id": "crates_euterpe_mcp_src_domain_transcript",
+      "label": "Transcript",
+      "degree": 21
+    },
+    {
+      "id": "crates_euterpe_mcp_src_domain_operationstatus",
+      "label": "OperationStatus",
+      "degree": 16
+    },
+    {
+      "id": "crates_euterpe_mcp_src_adapters_mcp_mcpadapter",
+      "label": "McpAdapter",
+      "degree": 15
+    },
+    {
+      "id": "crates_euterpe_mcp_src_ports_transcriptrepository",
+      "label": "TranscriptRepository",
+      "degree": 14
+    },
+    {
+      "id": "crates_euterpe_mcp_src_domain_operationkind",
+      "label": "OperationKind",
+      "degree": 13
+    },
+    {
+      "id": "crates_euterpe_mcp_src_ports_inputfileaccess",
+      "label": "InputFileAccess",
+      "degree": 13
+    },
+    {
+      "id": "crates_euterpe_mcp_src_ports_progressreporter",
+      "label": "ProgressReporter",
+      "degree": 13
+    },
+    {
+      "id": "crates_euterpe_mcp_src_ports_mediaprocessor",
+      "label": "MediaProcessor",
+      "degree": 12
+    }
+  ],
+  "surprises": [
+    {
+      "source": "InMemoryOperations",
+      "target": "OperationRepository",
+      "source_files": [
+        "tests/application_use_cases.rs",
+        "crates/euterpe-mcp/src/ports.rs"
+      ],
+      "confidence": "INFERRED",
+      "relation": "implements",
+      "why": "inferred connection - not explicitly stated in source; connects across different repos/directories; bridges separate communities"
+    },
+    {
+      "source": "InMemoryOperations",
+      "target": "OperationStatus",
+      "source_files": [
+        "tests/application_use_cases.rs",
+        "crates/euterpe-mcp/src/domain.rs"
+      ],
+      "confidence": "INFERRED",
+      "relation": "references",
+      "why": "inferred connection - not explicitly stated in source; connects across different repos/directories"
+    },
+    {
+      "source": "completed_transcription()",
+      "target": "Operation",
+      "source_files": [
+        "tests/application_use_cases.rs",
+        "crates/euterpe-mcp/src/domain.rs"
+      ],
+      "confidence": "INFERRED",
+      "relation": "references",
+      "why": "inferred connection - not explicitly stated in source; connects across different repos/directories"
+    },
+    {
+      "source": "InMemoryOperations",
+      "target": "Operation",
+      "source_files": [
+        "tests/application_use_cases.rs",
+        "crates/euterpe-mcp/src/domain.rs"
+      ],
+      "confidence": "INFERRED",
+      "relation": "references",
+      "why": "inferred connection - not explicitly stated in source; connects across different repos/directories"
+    },
+    {
+      "source": "InMemoryTranscripts",
+      "target": "Transcript",
+      "source_files": [
+        "tests/application_use_cases.rs",
+        "crates/euterpe-mcp/src/domain.rs"
+      ],
+      "confidence": "INFERRED",
+      "relation": "references",
+      "why": "inferred connection - not explicitly stated in source; connects across different repos/directories"
+    }
+  ],
+  "tokens": {
+    "input": 9290,
+    "output": 9479
+  }
+}

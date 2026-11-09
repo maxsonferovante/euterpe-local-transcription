@@ -1,0 +1,167 @@
+{
+  ".codex/hooks.json": {
+    "mtime": 1794235930.534974,
+    "ast_hash": "005ac71c84af2cae38e255e2b9de2411",
+    "semantic_hash": "005ac71c84af2cae38e255e2b9de2411"
+  },
+  "crates/euterpe-cli/src/main.rs": {
+    "mtime": 1794237517.8629808,
+    "ast_hash": "d90f884d55b496ecb1132f44b6c2f52d",
+    "semantic_hash": ""
+  },
+  "crates/euterpe-mcp/src/adapters.rs": {
+    "mtime": 1794237517.8709676,
+    "ast_hash": "d076604e5f8f17a3a3f656346f812922",
+    "semantic_hash": ""
+  },
+  "crates/euterpe-mcp/src/adapters/mcp.rs": {
+    "mtime": 1794237517.8678486,
+    "ast_hash": "b27d21740f61726be3b4b332461d898d",
+    "semantic_hash": ""
+  },
+  "crates/euterpe-mcp/src/application.rs": {
+    "mtime": 1794237595.7115502,
+    "ast_hash": "a543442aa4ed66c7fa52ef44e9c7770d",
+    "semantic_hash": ""
+  },
+  "crates/euterpe-mcp/src/domain.rs": {
+    "mtime": 1794232969.8692162,
+    "ast_hash": "cf17431819eb59d5e30fe7ef1293df42",
+    "semantic_hash": "cf17431819eb59d5e30fe7ef1293df42"
+  },
+  "crates/euterpe-mcp/src/lib.rs": {
+    "mtime": 1794233509.2535446,
+    "ast_hash": "96652f4cd34a24c93d930733060b641a",
+    "semantic_hash": "96652f4cd34a24c93d930733060b641a"
+  },
+  "crates/euterpe-mcp/src/main.rs": {
+    "mtime": 1794237517.874281,
+    "ast_hash": "c737e404e9b8ae465d20b057731486cf",
+    "semantic_hash": ""
+  },
+  "crates/euterpe-mcp/src/ports.rs": {
+    "mtime": 1794237493.920112,
+    "ast_hash": "05c3899b2df7e0459fb1447bddce0690",
+    "semantic_hash": ""
+  },
+  "AGENTS.md": {
+    "mtime": 1794235930.534777,
+    "ast_hash": "f36539ecc9af68f33ebd72770ce4a19e",
+    "semantic_hash": "f36539ecc9af68f33ebd72770ce4a19e"
+  },
+  "CODE_OF_CONDUCT.md": {
+    "mtime": 1794233462.1098418,
+    "ast_hash": "8165a964ccf294dc0b2c52178ef94b07",
+    "semantic_hash": "8165a964ccf294dc0b2c52178ef94b07"
+  },
+  "CONTRIBUTING.md": {
+    "mtime": 1794237478.1776114,
+    "ast_hash": "ef29f4cc5e3dcb705226bab44c573f61",
+    "semantic_hash": ""
+  },
+  "README.md": {
+    "mtime": 1794237634.6868036,
+    "ast_hash": "5723d3893523e5ea934d7423f3dd0579",
+    "semantic_hash": ""
+  },
+  "docs/adr/0001-whisper-cpp-local-inference.md": {
+    "mtime": 1794237634.8920057,
+    "ast_hash": "daf4b0f698d5630c9ca898659cd8bddd",
+    "semantic_hash": ""
+  },
+  "docs/arch.md": {
+    "mtime": 1794237634.7218795,
+    "ast_hash": "bfd15f8f42847fc0ad65ef6b5567b962",
+    "semantic_hash": ""
+  },
+  "docs/domain.md": {
+    "mtime": 1794237634.8247619,
+    "ast_hash": "eedbaed6567da358e697df02ee16609c",
+    "semantic_hash": ""
+  },
+  "docs/tools.md": {
+    "mtime": 1794237634.7892733,
+    "ast_hash": "de04a8ce45a743b7701383632f0e514c",
+    "semantic_hash": ""
+  },
+  "crates/euterpe-mcp/tests/application_use_cases.rs": {
+    "mtime": 1794237595.7155397,
+    "ast_hash": "a9434e2ab012fdf9625c08df39d87d14",
+    "semantic_hash": ""
+  },
+  "crates/euterpe-mcp/tests/media_adapter.rs": {
+    "mtime": 1794237595.7167072,
+    "ast_hash": "bb724707c90e951deaf9415a7b0d84a6",
+    "semantic_hash": ""
+  },
+  "crates/euterpe-mcp/tests/sqlite_repository.rs": {
+    "mtime": 1794234028.9434338,
+    "ast_hash": "066a1d652ffe32b99ed18e91962a054a",
+    "semantic_hash": ""
+  },
+  ".codex/skills/graphify/SKILL.md": {
+    "mtime": 1794235930.53372,
+    "ast_hash": "621fdfa1dca444439dfb15a17bff46d3",
+    "semantic_hash": ""
+  },
+  ".codex/skills/graphify/references/add-watch.md": {
+    "mtime": 1794158854.6466558,
+    "ast_hash": "c1f65eb4102ad515149303c7f296b718",
+    "semantic_hash": ""
+  },
+  ".codex/skills/graphify/references/exports.md": {
+    "mtime": 1794158854.6467955,
+    "ast_hash": "73968e2842f6eb742f96cf04c1f8db68",
+    "semantic_hash": ""
+  },
+  ".codex/skills/graphify/references/extraction-spec.md": {
+    "mtime": 1794158854.646917,
+    "ast_hash": "aae5757bbe2e4ac1d630c4adc02adb2c",
+    "semantic_hash": ""
+  },
+  ".codex/skills/graphify/references/github-and-merge.md": {
+    "mtime": 1794158854.6479335,
+    "ast_hash": "cde13df085e4c492aeb7ba298a996d0d",
+    "semantic_hash": ""
+  },
+  ".codex/skills/graphify/references/hooks.md": {
+    "mtime": 1794158854.6482034,
+    "ast_hash": "c21eee36b3f335e4b1bdd6f5cb73b877",
+    "semantic_hash": ""
+  },
+  ".codex/skills/graphify/references/query.md": {
+    "mtime": 1794158854.6493149,
+    "ast_hash": "209df1f5ef56fe44c09f5818207ac2fa",
+    "semantic_hash": ""
+  },
+  ".codex/skills/graphify/references/transcribe.md": {
+    "mtime": 1794158854.649443,
+    "ast_hash": "67b6a5fa6c0974e18f60db9f8932fbd8",
+    "semantic_hash": ""
+  },
+  ".codex/skills/graphify/references/update.md": {
+    "mtime": 1794158854.6499445,
+    "ast_hash": "9055a9ce9bb3bf9d8bfe0c6312f0acbe",
+    "semantic_hash": ""
+  },
+  "README.pt-BR.md": {
+    "mtime": 1794237446.9975176,
+    "ast_hash": "2b5deefa7ec14893e9d1fcfb9e578171",
+    "semantic_hash": ""
+  },
+  "docs/adr/0002-lightweight-hexagonal-architecture.md": {
+    "mtime": 1794237634.7549212,
+    "ast_hash": "fa3adb0fa15dca1081ab0f71e6ba5207",
+    "semantic_hash": ""
+  },
+  "docs/spec.md": {
+    "mtime": 1794237634.8578868,
+    "ast_hash": "9fd141978e46067ba454f7a27169bcfa",
+    "semantic_hash": ""
+  },
+  "assets/euterpe.png": {
+    "mtime": 1794234317.2849903,
+    "ast_hash": "525109f3d044cde1a31047b51f048187",
+    "semantic_hash": ""
+  }
+}
