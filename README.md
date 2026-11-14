@@ -82,6 +82,8 @@ cargo test
 cargo clippy --all-targets --all-features -- -D warnings
 ```
 
+[![M8ven Score](https://m8ven.ai/badge/mcp/maxsonferovante-euterpe-local-transcription-1tu9or?v=5bc2d3e2a7b0663a762b52c687e6067d)](https://m8ven.ai/mcp/maxsonferovante-euterpe-local-transcription-1tu9or?s=readme)
+
 See [CONTRIBUTING.md](CONTRIBUTING.md) for contribution and test guidance. This project is licensed under the MIT License; see [LICENSE](LICENSE).
 
 ---
